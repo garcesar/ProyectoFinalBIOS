@@ -27,7 +27,7 @@ public partial class ABM_Paises : System.Web.UI.Page
         btnAlta.Enabled = false;
         btnModificar.Enabled = false;
         btnEliminar.Enabled = false;
-        btnBuscar.Enabled = false;
+        //btnBuscar.Enabled = false;
     }
 
     private void activoBotones()
@@ -35,7 +35,7 @@ public partial class ABM_Paises : System.Web.UI.Page
         btnAlta.Enabled = true;
         btnModificar.Enabled = true;
         btnEliminar.Enabled = true;
-        btnBuscar.Enabled = true;
+        //btnBuscar.Enabled = true;
     }
 
     protected void btnBuscar_Click(object sender, EventArgs e)

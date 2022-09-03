@@ -39,7 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogicaUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntidadesCompartidas\EntidadesCompartidas.csproj">
+      <Project>{e6dd5f7e-2350-4621-aa2b-76fbf434b3e8}</Project>
+      <Name>EntidadesCompartidas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Persistencia\Persistencia.csproj">
+      <Project>{6f153165-fb63-46f2-9160-384d6de606f9}</Project>
+      <Name>Persistencia</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

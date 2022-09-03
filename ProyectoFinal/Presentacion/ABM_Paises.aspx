@@ -17,7 +17,7 @@
                     </td>
                     <td>
                         <asp:TextBox ID="txtCodigo" runat="server"></asp:TextBox>
-                        <asp:Button ID="btnBuscar" runat="server" Text="Buscar" OnClick="BtnBuscar_Click" />
+<%--                        <asp:Button ID="btnBuscar" runat="server" Text="Buscar" OnClick="BtnBuscar_Click" />--%>
                     </td>
                 </tr>
                 <tr>

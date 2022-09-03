@@ -39,7 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexion.cs" />
+    <Compile Include="PersistenciaUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntidadesCompartidas\EntidadesCompartidas.csproj">
+      <Project>{e6dd5f7e-2350-4621-aa2b-76fbf434b3e8}</Project>
+      <Name>EntidadesCompartidas</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
